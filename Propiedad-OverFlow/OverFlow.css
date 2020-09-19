@@ -29,6 +29,7 @@
     overflow: scroll;
     text-align: center;
     margin-top: 8px;
+    
 }
 
 .Auto{
@@ -50,12 +51,23 @@ img{
 
 h1{
     text-align: center;
-    color: powderblue;
+    color: rgb(15, 98, 109);
    
 }
 
 body{
     background: slategray;
-    
+    scrollbar-face-color: red;
+        
 }
 
+.Scroll::-webkit-scrollbar{
+    background: rgb(52, 43, 77) ;
+}
+
+.Auto::-webkit-scrollbar{
+    background: rgb(11, 14, 12);
+}
+body::-webkit-scrollbar{
+    background: crimson;
+}

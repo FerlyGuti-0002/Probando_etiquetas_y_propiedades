@@ -9,20 +9,24 @@
 p{
     color: crimson;
     position: sticky;
+    font-size: 20px;
 }
 
 p1{
     color: crimson;
     position: static;
+    font-size: 20px;
 }
 
 p2{
     color: crimson;
     position: fixed;
+    font-size: 20px;
 }
 
 p3{
     color: crimson;
+    font-size: 20;
     
 }
 
@@ -34,10 +38,12 @@ h1{
 
 h4{
     color: darkcyan;
+    font-size: 25px;
 }
 
 body{
     text-align: center;
     font-size: 20px;
     position: relative;
+    background: lightblue;
 }
