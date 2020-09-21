@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color: tomato;
+}
+
+h3{
+    text-align: center;
+    color: mediumseagreen;
+}
+
+.Imagen1{
+    padding-left: 35%;
+}
+
+.Imagen2{
+    padding-left: 35%;
+}
+
+.Imagen3{
+    padding-left: 35%;
+}
+
+.Imagen4{
+    padding-left: 35%;
+}
+
+.Vertical{
+    padding-left: 42%;  
+    margin-top: 4%;
+}
+
+ul {
+        list-style-type: none;
+        padding: 0;
+        width: 200px;
+        background-color:rgb(164, 197, 197);
+}
+
+ul a {
+    display: block;
+    border-bottom-color: rgb(12, 12, 12);
+    text-decoration: none;
+    color: rgb(70, 42, 230);
+    border-bottom: 1px solid rgb(3, 3, 3);
+    border: 1px solid rgb(12, 12, 12);
+    margin-top: -9%;
+}
+
+p{
+    text-align: center;
+    margin-top: 22%;
+}
+body{
+    background: rgb(164, 197, 197);
+}
+
+div{
+    max-width: 100%;
+    min-height:100%;
+}
