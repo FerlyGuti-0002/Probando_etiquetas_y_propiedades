@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: rgb(58, 57, 57);
+}
+
+h2{
+    text-align: center;
+    color:  rgb(167, 55, 43);
+}
+
+.Opacidad{
+    padding-left: 31%;
+    opacity: 1.0;
+}
+
+.OpacidadD{
+    padding-left: 31%;
+    opacity: 0.2;
+}
+
+.OpacidadT{
+    padding-left: 31%;
+    opacity: 0.5;
+}
+
+body{
+    background: slategrey;
+}
