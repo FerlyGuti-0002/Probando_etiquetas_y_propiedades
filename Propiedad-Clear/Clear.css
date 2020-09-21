@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+}
+
+.Clear{
+    padding-left: 32%;
+    margin-top: 2%;
+    
+}
+
+.ClearN{
+    clear: none;
+    width: 350px;
+    height: 90px;
+    border:1px solid black;
+    margin-top: 8px;
+}
+
+.FloatN{
+    float: none;
+    width: 400px;
+    height: 200px;
+    border:1px solid red;
+    margin-top: 8px;
+}
+
+.ClearL{
+    clear: left;
+    width: 350px;
+    height: 90px;
+    border:1px solid black;
+    margin-top: 8px;
+}
+.FloatL{
+    float: left;
+    width: 400px;
+    height: 200px;
+    border:1px solid orangered;
+    margin-top: 8px;
+}
+
+.ClearR{
+    clear: right;
+    width: 350px;
+    height: 90px;
+    border:1px solid black;
+    margin-top: 8px;
+}
+
+.FloatR{
+    float: right;
+    width: 400px;
+    height: 200px;
+    border:1px solid green;
+    margin-top: 8px;
+}
+
+.ClearB{
+    clear: both;
+    width: 400px;
+    height: 200px;
+    border:1px solid blue;
+    margin-top: 8px;
+}
+
+.FloatB{
+    float: both;
+    width: 350px;
+    height: 90px;
+    border:1px solid black;
+    margin-top: 8px;
+}
+
+.ClearI{
+    clear: inherit;
+    width: 350px;
+    height: 90px;
+    border:1px solid black;
+    margin-top: 8px;
+}
+
+.FloatI{
+    float: inherit;
+    width: 400px;
+    height: 200px;
+    border:1px solid brown;
+    margin-top: 8px;
+}
+
+body{
+    background: rgb(129, 158, 22);
+}
