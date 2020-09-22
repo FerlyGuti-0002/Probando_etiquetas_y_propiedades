@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+Div{
+    width: 400px;
+    height: 180px;
+    border: 2px solid black;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background: brown;
+}
