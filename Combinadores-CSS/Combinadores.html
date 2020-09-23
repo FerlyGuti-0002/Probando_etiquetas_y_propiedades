@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica CSS</title>
+    <link rel="stylesheet" href="Combinadores.css">
+</head>
+<body>
+    <h1>Práctica de Combinadores CSS y etiquetas</h1>
+    <hr>
+    <h4>Un combinador descendiente, representado por al menos un carácter de espacio ( ), selecciona elementos que son descendientes del elemento definido. Este combinador selecciona todos los descendientes del elemento (desde elementos secundarios hacia abajo).</h4>
+    <div>
+        <p>My texto es red</p>
+        <section>
+        <p>My texto es red</p>
+        </section>
+      </div>
+      <p>My texto no es red</p>
+      <h4>En el ejemplo anterior, los primeros dos elementos < p > se seleccionan ya que ambos son descendientes de < div >.</h4>
+      <hr>
+      <h4>El combinador hijo ( > ) se utiliza para seleccionar elementos que son hijos o descendientes directos del elemento especificado.</h4>
+      <div>
+        <p>My texto es green</p>
+        <section>
+          <p>My texto no es green</p>
+        </section>
+      </div>
+      <h4>El CSS anterior selecciona solo el primer elemento < p > , ya que es el único párrafo que desciende directamente de un < div > .
+          El segundo elemento < p > no está seleccionado porque no es un elemento secundario directo de < div > .</h4>
+      <hr>
+      <h4>El combinador de hermanos adyacentes ( + ) selecciona un elemento hermano que sigue inmediatamente a un elemento especificado.</h4>
+      <p>My texto no es red</p>
+      <p>My texto es red</p>
+      <p>My texto es red</p>
+      <hr>
+      <p>My texto no es red</p>
+      <h4>El ejemplo anterior selecciona solo aquellos elementos < p > que están precedidos directamente por otro elemento < p >.</h4>
+      <hr>
+      <h4>El combinador general de hermanos ( ~ ) selecciona todos los hermanos que siguen el elemento especificado.</h4>
+      <p>My texto no es red</p>
+      <p>My texto es red</p>
+      <hr>
+      <h1>Y ahora un titulo</h1>
+      <p>My texto es red</p>
+      <h4>El ejemplo anterior selecciona todos los elementos < p > que están precedidos por otro elemento < p > , estén o no inmediatamente adyacentes.</h4>
+</body>
+</html>

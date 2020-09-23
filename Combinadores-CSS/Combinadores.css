@@ -1,0 +1,37 @@
+div p {
+    color:red;
+    text-align: center;
+  }
+
+  div > p {
+    color:red;
+    text-align: center;
+  }
+
+  p + p {
+    color:red;
+    text-align: center;
+  }
+
+  p ~ p {
+    color:red;
+    text-align: center;
+  }
+
+  p{
+      text-align: center;
+  }
+
+  h1{
+      color: blue;
+      text-align: center;
+  }
+
+  h4{
+      color: rgb(27, 27, 27);
+      text-align: center;
+  }
+
+  body{
+      background: rgb(148, 145, 145);
+  }
